@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Donut Clicker</title>
+  </head>
+  <body>
+    <header>
+        <ul>
+          <li><a href="https://mattboy115.github.io/PersonalProfile.io/index.html">The Creator's Portfolio</a></li>
+          <li><a href="https://github.com/mattboy115/">The Creator's Github</a></li>
+        </ul>
+    </header>
+    <h1>Donut Clicker!</h1>
+    <div class="container">
+      <button id="clicker" onclick="addDonuts()"><img src="/images/donut.png" alt=""></button>
+      <div id="donut-counter">Donut Counter: 0</div><br>
+      <button id="addClicker" onclick="addAutoClicker()">Purchase Auto-Clicker</button><br>
+      <div id="ac-cost">Auto Clicker Cost: 10 Donuts</div><br>
+      <div id="ac-count">Auto-Clickers: 0</div>
+    </div>
+    <button id="reset-btn" onclick="location.reload()">Reset</button>
+    <script src="./index.js"></script>
+  </body>
+</html>
